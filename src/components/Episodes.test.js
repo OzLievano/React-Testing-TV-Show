@@ -27,5 +27,7 @@ test("episodes shows data when rerendered with new submission data", () => {
   expect(queryAllByTestId("episode")).toHaveLength(0)
 
   rerender(<Episodes episodes={episodesFixture}/>);
+
+  expect(queryAllByTestId("episode")).toHaveLength(2);
 });
 

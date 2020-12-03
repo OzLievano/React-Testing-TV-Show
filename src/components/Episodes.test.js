@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import Episodes from './Episodes';
 
+// only need data for the render for our mock data 
 export const episodesFixture = [
   {
     name: "Chapter One: The Vanishing of Will Byers",
